@@ -1,22 +1,21 @@
 {
-    "name": "Bing Search Automator",
-    "version": "1.5.0",
-    "description": "Chrome / Edge extension for Automatic Bing Search fOR mOBILE",
-    "manifest_version": 3,
-    "author": "A Mahapatra",
-    "action": {
-        "default_popup": "index.html",
-        "default_title": "Bing Search Automator"
-    },
-    "permissions": [
-        "debugger"
-    ],
-    "icons": {
-        "16": "./img/icon16.png",
-        "48": "./img/icon48.png",
-        "128": "./img/icon128.png"
-    },
-    "background": {
-        "service_worker": "./js/background.js"
-    }
+   "action": {
+      "default_popup": "index.html",
+      "default_title": "Bing Search Automator"
+   },
+   "author": "A Mahapatra",
+   "background": {
+      "service_worker": "./js/background.js"
+   },
+   "description": "Chrome / Edge extension for Automatic Bing Search",
+   "icons": {
+      "128": "./img/icon128.png",
+      "16": "./img/icon16.png",
+      "48": "./img/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhGVT/U6urUAOCApp6yko+Cj2rBiDgwUDH51kb5cU8F8RGupZGUiGOtWV5c+4i6q91VLhBgK4QJlR5dJzxW1Fn3SEY1vPy+v+T8V39Ztwl0f/yu8PMKgZByxdRHfw5vuQ47JiTxVuNzr998beHumZG2/bGFpoPAg+/y/FPhc4VkTsijVWPmufAGQzYM7hrt4zAERtEvXHc1Vvdl1zh6gQO2NDL3wQC2xcF+mnyi70YRtVwAX7HUnQcmbzG7gfhehhNDLIJaFSWls41ppQVXjhudY6yPrJd4C3SslWKXaCR2l1faga71O7TlHkbGAzv7EamqrePp+RizY1O0zZqLRsoQIDAQAB",
+   "manifest_version": 3,
+   "name": "Bing Search Automator",
+   "permissions": [ "debugger","tabs","storage", "declarativeNetRequest", "alarms" ,"https://*.bing.com/*", "https://account.microsoft.com/rewards/*", "https://trends.google.com/*", "webRequest", "webRequestBlocking" ],
+   "version": "1.3.1"
 }
