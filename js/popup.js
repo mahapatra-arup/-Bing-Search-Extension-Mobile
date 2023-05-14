@@ -21,7 +21,7 @@ var phonesArray = [{
     width: 0,
     height: 0,
     deviceScaleFactor: 2,
-    userAgent: "Mozilla/5.0 (Linux; U; Android 2.3.6; en-us; Nexus S Build/GRK39F) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1 EdgA/42.0.0.2057",
+    userAgent: "Mozilla/5.0 (Linux; Android 12; SM-N9750) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Mobile Safari/537.36 EdgA/111.0.1661.48",
     touch: true,
     mobile: true
 }]
@@ -33,11 +33,11 @@ phonesArray.forEach(function (phone) {
 })
 
 // Wait time between searches
-var milliseconds = 1300
+var milliseconds = 1500
 
 // Default value
-var numberOfSearches = 35
-var numberOfSearchesMobile = 40
+var numberOfSearches = 45
+var numberOfSearchesMobile = 50
 
 // Dom Elements for jQuery purpose
 const domElements = {
